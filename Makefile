@@ -64,6 +64,7 @@ all: build
 
 .PHONY: clean
 clean:
+	@rm -rf build/
 	@rm -rf testbin/
 	@rm -rf bin/*
 	@rm -f coverage*.out
